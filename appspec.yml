@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /applmaria
+    destination: /home/ubuntu/applmaria
 hooks:
   ApplicationStop:
     - location: scripts/stop.sh
