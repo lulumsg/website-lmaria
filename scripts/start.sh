@@ -6,6 +6,6 @@ npm install
 
 export NODE_OPTIONS=--openssl-legacy-provider
 
-sudo supervisord
-sudo supervisorctl start $nomeApp
+supervisord -c /etc/supervisord.conf
+supervisorctl start $nomeApp
 
