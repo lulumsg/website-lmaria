@@ -1,6 +1,7 @@
 #!/bin/bash
 nomeApp="webl"
-cd /applmaria
+cd /home/ubuntu/applmaria
+chmod +x /home/ubuntu/applmaria/scripts/start.sh
 npm install
 
 export NODE_OPTIONS=--openssl-legacy-provider
